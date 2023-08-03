@@ -1,0 +1,30 @@
+.grid_container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 1px black dotted;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+.col {
+    display: flex;
+    flex-grow: 1;
+    border: 1px black solid;
+}
+
+.active_gridsquare {
+    background-color: black;
+}
