@@ -22,9 +22,13 @@
 .col {
     display: flex;
     flex-grow: 1;
-    border: 1px black solid;
 }
 
 .active_gridsquare {
     background-color: black;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
 }
